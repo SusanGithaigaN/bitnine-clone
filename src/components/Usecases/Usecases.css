@@ -1,0 +1,30 @@
+#use-cases{overflow-x: hidden;}
+/* ...............cards................. */
+#cards{
+    /* padding: 5%; */
+    background-color: rgb(243, 246, 251);;
+    height: fit-content; 
+    padding-bottom: 5%;   
+    padding-top: 5%;
+}
+
+/* #use-case-img {
+    width: 100%;
+    max-width: 10%;
+    height: auto;
+} */
+/* ......................card hover effects......................... */
+#card-img:hover{
+    border: 3px solid #fac433;
+}
+#txt:hover{
+    color: #fac433;
+    font-weight: bold;
+}
+#connect-btn{
+    background-color: darkblue;
+}
+#connect-btn:hover{
+    color: #fac433;
+    font-weight: bold;
+}

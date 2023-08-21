@@ -87,7 +87,7 @@ export default function NavBar() {
                                 </MDBDropdown>
                             </MDBNavbarItem>
                             <MDBNavbarItem>
-                                <MDBNavbarLink active aria-current='page' href='#'>
+                                <MDBNavbarLink active aria-current='page' href='/usecases'>
                                     USE CASES
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
