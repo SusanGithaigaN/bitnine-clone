@@ -1,3 +1,6 @@
+#products{
+    overflow-x: hidden;
+}
 /* .....................colored backgrounds............................. */
 #logo-card, #graph-db, #enterprise-ed, #card-body{
     background-color: rgb(243, 246, 251);
@@ -10,7 +13,7 @@
 }
 /* ......................logo...................... */
 #why{
-    font-size: 5em;
+    /* font-size: 5em; */
     letter-spacing: 4px;
 }
 /* #graph-title{
@@ -58,6 +61,9 @@
     height: fit-content;
   } 
   #heading:hover{
-    background-color: #0099ff !important;
+    background-color: #2d6fad !important;
   } 
+  #graph-db{
+    height: fit-content;
+  }
   

@@ -11,7 +11,7 @@ import Enterprise from './Enterprise';
 
 export default function Products() {
     return (
-        <div>
+        <div id='products'>
             <MDBCard style={{boxShadow: 'none'}}>
                 <MDBCardBody id='main'>
                     <MDBCardTitle id='graph-title' className='fw-bold fs-1'>AgensGraph</MDBCardTitle>

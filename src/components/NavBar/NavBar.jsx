@@ -77,14 +77,16 @@ export default function NavBar() {
                                         Products
                                         </Link>
                                     </MDBDropdownToggle>
-                                    <MDBDropdownMenu
+                                    <MDBDropdownMenu dark
                                         style={{
                                             backgroundColor: 'gray',
-                                            borderColor: 'black',
+                                            // borderColor: 'black',
                                             textDecoration: 'none',
                                         }}
                                     >
-                                        <MDBDropdownItem link>Graph Database</MDBDropdownItem>
+                                        <MDBDropdownItem link>Graph Database
+                                        
+                                        </MDBDropdownItem>
                                         <MDBDropdownItem link>Relational Database</MDBDropdownItem>
                                     </MDBDropdownMenu>
                                 </MDBDropdown>
