@@ -1,0 +1,75 @@
+#service-title{
+    font-size: 55px;
+}
+#service-card{
+    height: fit-content;
+    padding: 5%;
+    box-shadow: none;
+}
+#contact-btn{
+    background-color: transparent;
+    color: black;
+    box-shadow: none;
+    border: 2px solid black;
+    transition: color 0.3s, border-color 0.3s, transform 0.3s;
+}
+#contact-btn:hover{
+     color: #fac433;
+    border-color: #fac433;
+    transform: translateY(-4px);   
+}
+
+/* .......................consulting........................ */
+#consult,#analyze{
+    background-color: rgb(243, 246, 251);
+    padding: 4%;
+    box-shadow: none;
+}
+.accordion{
+    background-color: rgb(243, 246, 251) !important;
+}
+
+/* #accordion:hover{
+    
+} */
+.img-fluid{
+    background-size: cover;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* background: rgb(10, 10, 10); */
+    /* height: 300px; */
+    /* opacity: 1; */
+    /* z-index: -1; */
+    /* background-repeat: no-repeat; */
+    /* background-color: rgba(0, 0, 0, 0); */
+    /* background-image: url(https://bitnine.net/wp-content/uploads/2020/11/services_bg.jpg); */
+    /* background-attachment: fixed; */
+    /* min-width: 1496px; */
+    max-width: 1833px;
+    /* left: 0px; */
+    width: 1833px;
+    /* max-height: 50%;
+    height: 50%; */
+}
+
+/* .......................AgensGraph Service.............................. */
+#graph-service{
+    
+}
+#m-title{
+    color: white;
+    background-color: #2d6fad;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+#contents{
+    /* border: 1px solid rgba(0,0,0,0.2); */
+    /* padding: 20px; */
+    border-radius: 3px;
+}

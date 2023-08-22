@@ -11,6 +11,7 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Products from './components/Products/Products';
 import Usecases from './components/Usecases/Usecases';
+import Services from './components/Services/Services';
 
 const Dashboard = () => {
   return (
@@ -21,6 +22,7 @@ const Dashboard = () => {
         <Route path='/' element={<Home />} />
         <Route path='/products' element={<Products />} />
         <Route path='/usecases' element={<Usecases />} />
+        <Route path='/services' element={<Services />} />
       </Routes>
       <Footer />
     </div>

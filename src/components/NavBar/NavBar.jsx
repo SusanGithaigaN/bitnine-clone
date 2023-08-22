@@ -92,7 +92,7 @@ export default function NavBar() {
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
                             <MDBNavbarItem>
-                                <MDBNavbarLink active aria-current='page' href='#'>
+                                <MDBNavbarLink active aria-current='page' href='/services'>
                                     SERVICES
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
