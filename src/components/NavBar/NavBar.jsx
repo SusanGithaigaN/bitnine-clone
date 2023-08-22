@@ -19,6 +19,7 @@ import {
 import logo from './logo.png'
 
 import './NavBar.css'
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
     const [showNavRight, setShowNavRight] = useState(false);
@@ -62,7 +63,7 @@ export default function NavBar() {
                                 <MDBDropdown show={true}>
                                     <MDBDropdownToggle
                                         tag='a'
-                                        href="/products"
+                                        // href=""
                                         className={`nav-link text-uppercase ${isHovered ? 'text-warning' : 'text-white'}`}
                                         role='button'
                                         style={{
@@ -72,7 +73,9 @@ export default function NavBar() {
                                             cursor: 'pointer',
                                         }}
                                     >
+                                        <Link to='/products' className='text-reset'>
                                         Products
+                                        </Link>
                                     </MDBDropdownToggle>
                                     <MDBDropdownMenu
                                         style={{
@@ -87,33 +90,45 @@ export default function NavBar() {
                                 </MDBDropdown>
                             </MDBNavbarItem>
                             <MDBNavbarItem>
-                                <MDBNavbarLink active aria-current='page' href='/usecases'>
+                                <MDBNavbarLink active aria-current='page'>
+                                    <Link to='/usecases' className='text-reset'>
                                     USE CASES
+                                    </Link>
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
                             <MDBNavbarItem>
-                                <MDBNavbarLink active aria-current='page' href='/services'>
+                                <MDBNavbarLink active aria-current='page'>
+                                    <Link to='/services' className='text-reset'>
                                     SERVICES
+                                    </Link>
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
                             <MDBNavbarItem>
-                                <MDBNavbarLink active aria-current='page' href='/resources'>
+                                <MDBNavbarLink active aria-current='page'>
+                                <Link to='/resources' className='text-reset'>
                                     RESOURCES
+                                    </Link>
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
                             <MDBNavbarItem>
-                                <MDBNavbarLink active aria-current='page' href='#'>
+                                <MDBNavbarLink active aria-current='page'>
+                                    <Link to='#' className='text-reset'>
                                     BLOG
+                                    </Link>
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
                             <MDBNavbarItem>
-                                <MDBNavbarLink active aria-current='page' href='#'>
+                                <MDBNavbarLink active aria-current='page'>
+                                <Link to='#' className='text-reset'>
                                     COMPANY
+                                    </Link>
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
                             <MDBNavbarItem>
-                                <MDBNavbarLink active aria-current='page' href='#'>
+                                <MDBNavbarLink active aria-current='page'>
+                                <Link to='#' className='text-reset'>
                                     IR
+                                    </Link>
                                 </MDBNavbarLink>
                             </MDBNavbarItem>
                         </MDBNavbarNav>
