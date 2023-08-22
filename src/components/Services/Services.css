@@ -1,3 +1,6 @@
+#services{
+    overflow-x: hidden;
+}
 #service-title{
     font-size: 55px;
 }

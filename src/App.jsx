@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import Products from './components/Products/Products';
 import Usecases from './components/Usecases/Usecases';
 import Services from './components/Services/Services';
+import Resources from './components/Resources/Resources';
 
 const Dashboard = () => {
   return (
@@ -23,6 +24,7 @@ const Dashboard = () => {
         <Route path='/products' element={<Products />} />
         <Route path='/usecases' element={<Usecases />} />
         <Route path='/services' element={<Services />} />
+        <Route path='/resources' element={<Resources />} />
       </Routes>
       <Footer />
     </div>

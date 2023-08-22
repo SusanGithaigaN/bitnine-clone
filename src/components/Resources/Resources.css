@@ -1,0 +1,63 @@
+.blue {
+    color: #2d6fad;
+}
+
+.yellow {
+    color: #fac433;
+}
+
+.light {
+    color: #39bde7;
+}
+
+#solutions {
+    background-color: rgb(243, 246, 251);
+    padding: 3%;
+}
+
+/* ...................manual........................ */
+#manuals {
+    height: fit-content;
+    overflow-x: hidden;
+    /* margin-bottom: 5%; */
+}
+
+#manual {
+    /* margin-bottom: 5%; */
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(https://bitnine.net/wp-content/uploads/2020/12/docu_bg-2.jpg);
+    background-attachment: scroll;
+    /* min-width: ; */
+    left: 0px;
+    width: 100%;
+    background-position: 50% -64px;
+}
+
+#list-item {
+    border: 0.2px solid rgb(187, 183, 183);
+    border-radius: 3px;
+    /* width: 90%; */
+    list-style: none;
+}
+
+/* ul li, ol li {
+    margin: 0 0 0.5rem;
+} */
+
+#list-item:hover {
+    color: #fac433;
+    border: 1px solid #fac433;
+}
+
+#link {
+    text-decoration: none;
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+    #manual-cards {
+        width: 100% !important;
+    }
+}
